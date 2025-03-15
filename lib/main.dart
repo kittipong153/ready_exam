@@ -1,5 +1,7 @@
+import 'package:final_exam_650710153/answer2.dart';
 import 'package:flutter/material.dart';
-import 'profile.dart';
+import 'answer1.dart';
+import 'answer2.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,15 +12,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Profile Card',
+      title: 'คำนวณค่าจัดส่ง',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
         appBar: AppBar(
-          centerTitle: true,
-          title: Text('My Profile')),
-        body: ProfileCard(),
+          title: Text('คำนวณค่าจัดส่ง')),
+        body: RegistrationForm(),
       ),
     );
   }
