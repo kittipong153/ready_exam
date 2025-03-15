@@ -11,7 +11,7 @@ class ProfileCard extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 80,
-              backgroundImage: AssetImage('assets/profile.jpg'), // เปลี่ยนเป็นรูปของคุณ
+              backgroundImage: AssetImage('assets/images/profile.jpg'), // เปลี่ยนเป็นรูปของคุณ
             ),
             SizedBox(height: 20),
             Text(
